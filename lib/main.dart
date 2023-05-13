@@ -73,7 +73,7 @@ class DateTimeWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final api = ApiProvider.of(context).api;
-    return Text(api.dateAndTime ?? "Tap on screen to fetch date on time");
+    return Text(api.dateAndTime ?? "Tap on screen to fetch date and time");
   }
 }
 
